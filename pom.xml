@@ -29,6 +29,26 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+<muleVersion>4.4.0</muleVersion>
+<username>KOMMAAKU</username>
+<password>Anilkumr@991</password>
+<applicationName>am-sample-testing</applicationName>
+<environment>Sandbox</environment>
+<workers>1</workers>
+<workerType>MICRO</workerType>
+<objectStoreV2>true</objectStoreV2>
+<properties>
+<anypoint.platform.analytics_base_uri>https://analytics-ingest.eu1.anypoint.mulesoft.com</anypoint.platform.analytics_base_uri>
+<anypoint.platform.client_id>c2d7676a90e8443b97c12e1db24f9ae6</anypoint.platform.client_id>
+<anypoint.platform.client_secret>4965c93586Fa4Aa3a795A96236865fC2</anypoint.platform.client_secret>
+<anypoint.platform.base_uri>https://eu1.anypoint.mulesoft.com</anypoint.platform.base_uri>
+</properties>
+</cloudHubDeployment>
+
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
